@@ -29,7 +29,7 @@ Two.csv files ("train.csv" and "sample_submission.csv") were available for downl
 The "train.csv" file carries two columns of objects, with an image ID as "SOPInstanceUID" and the represented body anatomy segment as "Target". This file was used to generate samples for the purpose of the coding.<br/>
 
 A decorticated and labeled dataframe was created to facilitate visualisation.<br/>
-![image](https://user-images.githubusercontent.com/92320460/165941027-0175d472-6c19-44ea-b7ed-dc7bbeb0ced6.png)
+![image](https://user-images.githubusercontent.com/92320460/165941340-8e648785-c9de-490a-8e41-124fe29c5072.png)
 
 ### 2. Images ###
 Two sets of images in DICOM (https://www.dicomstandard.org/) format were availabe:
