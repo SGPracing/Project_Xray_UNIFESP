@@ -46,7 +46,7 @@ The DICOM images were decoded into matrices and subsequently:
 - decomposed/tranformed using PCA adn HOG
 
 This is an example of an image, original format and processed (PCA with n_elements = 50) as detailed above:<br/>
-![image](https://user-images.githubusercontent.com/92320460/165867472-f37f3948-ccd5-4721-8f6d-d1c8a3fa219f.png)
+![image](https://user-images.githubusercontent.com/92320460/165962796-31969ce8-52dc-4e48-89c6-ce21ef6bf650.png)
 
 ![image](https://user-images.githubusercontent.com/92320460/165867134-2dd862c1-22bb-4eeb-9722-4b128d177590.png)
 
