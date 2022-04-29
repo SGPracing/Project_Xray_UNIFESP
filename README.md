@@ -44,7 +44,9 @@ The DICOM images were decoded into matrices and subsequently:
 - standardized;
 - decomposed using PCA
 
-This is an example of an image processed as detailed above:<br/>
+This is an example of an image, original format and processed as detailed above, using PCA with n_elements = 50:<br/>
+![image](https://user-images.githubusercontent.com/92320460/165867309-9798fb0c-73c5-417f-ba80-bd29319f5ef7.png)
+
 ![image](https://user-images.githubusercontent.com/92320460/165867134-2dd862c1-22bb-4eeb-9722-4b128d177590.png)
 
 
