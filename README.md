@@ -1,19 +1,19 @@
 # Project X-ray (UNIFESP)
 
-## 1. Introduction ##
+## Introduction ##
 
 This notebook proposes a solution to the competition posted by UNIFESP at Kaggle.com on the 20th of March 2022, entitled "UNIFESP X-ray Body Part Classifier Competition".<br/>
 The objective was to classify DICOM X-ray images by body anatomy segment. More detailed explanation can be found on the website bellow, under "Overview".<br>
 Link: https://www.kaggle.com/competitions/unifesp-x-ray-body-part-classifier
 
 
-## 2. Data ##
+## Data ##
 Source: API provided by competition host, 'kaggle competitions download -c unifesp-x-ray-body-part-classifier'
 
-## 3. Technology ##
+## Technology ##
 Python 3.9.7
 
-## 4. Libraries ##
+## Libraries ##
 * pandas
 * numpy
 * matplotlib
@@ -23,14 +23,15 @@ Python 3.9.7
 * skimage
 * pathlib
 
-## 5. DataFrame and Images##
-### 5.1. ".csv" files ###
+## DataFrame and Images##
+### 1. ".csv" files ###
 Two.csv files ("train.csv" and "sample_submission.csv") were available for downloading.<br/>
 The "train.csv" file carries two columns of objects, with an image ID as "SOPInstanceUID" and the represented body anatomy segment as "Target". This file was used to generate samples for the purpose of the coding.<br/>
 
 A decorticated and labeled dataframe was created to facilitate visualisation.<br/>
+![image](https://user-images.githubusercontent.com/92320460/165941027-0175d472-6c19-44ea-b7ed-dc7bbeb0ced6.png)
 
-### 5.2. Images ###
+### 2. Images ###
 Two sets of images in DICOM (https://www.dicomstandard.org/) format were availabe:
 * train: 1738 images
 * test: 743 images
