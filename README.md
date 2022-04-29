@@ -44,7 +44,7 @@ The DICOM images were decoded into matrices and subsequently:
 - standardized;
 - decomposed using PCA
 
-This is an example of an image processed as detailed above:
+This is an example of an image processed as detailed above:<br/>
 ![image](https://user-images.githubusercontent.com/92320460/165867134-2dd862c1-22bb-4eeb-9722-4b128d177590.png)
 
 
