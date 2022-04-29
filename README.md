@@ -57,3 +57,5 @@ This is the same image submitted to a HOG transformation:<br/>
 
 
 
+
+
