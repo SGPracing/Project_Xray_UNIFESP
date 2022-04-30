@@ -25,7 +25,7 @@ Python 3.9.7
 
 ## DataFrame and Images##
 ### 1. ".csv" files ###
-Two.csv files ("train.csv" and "sample_submission.csv") were available for downloading.<br/>
+Two .csv files ("train.csv" and "sample_submission.csv") were available for downloading.<br/>
 The "train.csv" file carries two columns of objects, with an image ID as "SOPInstanceUID" and the represented body anatomy segment as "Target". This file was used to generate samples for the purpose of the coding.<br/>
 
 A decorticated and labeled dataframe was created to facilitate visualisation.<br/>
