@@ -32,9 +32,6 @@ A decorticated and labeled dataframe was created to facilitate visualisation.<br
 ![image](https://user-images.githubusercontent.com/92320460/165941340-8e648785-c9de-490a-8e41-124fe29c5072.png)
 
 The next step was to aggregate the image files' path to the correct "SOPInstanceUID" in the dataframe refering to the DICOM metadata.<br/>
-The resulting table (data_labeled):
-![image](https://user-images.githubusercontent.com/92320460/166117340-ca7c161a-7112-4f3d-9464-04914235064b.png)
-
 
 ### 2. Images ###
 Two sets of images in DICOM (https://www.dicomstandard.org/) format were availabe:
