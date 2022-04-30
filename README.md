@@ -59,4 +59,5 @@ This is the same image submitted to a HOG transformation:<br/>
 
 
 
+![image](https://user-images.githubusercontent.com/92320460/166117032-c985a3a6-0dc4-484d-8bdd-3f5ed4992d71.png)
 
