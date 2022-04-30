@@ -31,6 +31,11 @@ The "train.csv" file carries two columns of objects, with an image ID as "SOPIns
 A decorticated and labeled dataframe was created to facilitate visualisation.<br/>
 ![image](https://user-images.githubusercontent.com/92320460/165941340-8e648785-c9de-490a-8e41-124fe29c5072.png)
 
+The next step was to aggregate the image files' path to the correct "SOPInstanceUID" in the dataframe refering to the DICOM metadata.<br/>
+The resulting table (data_labeled):
+![image](https://user-images.githubusercontent.com/92320460/166117296-bf1bae85-19c2-4499-811f-ab24f8b0799e.png)
+
+
 ### 2. Images ###
 Two sets of images in DICOM (https://www.dicomstandard.org/) format were availabe:
 * train: 1738 images
