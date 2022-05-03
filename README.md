@@ -32,6 +32,7 @@ A decorticated and labeled dataframe was created to facilitate visualisation.<br
 ![image](https://user-images.githubusercontent.com/92320460/165941340-8e648785-c9de-490a-8e41-124fe29c5072.png)
 
 The next step was to aggregate the image files' path to the correct "SOPInstanceUID" in the dataframe refering to the DICOM metadata.<br/>
+![image](https://user-images.githubusercontent.com/92320460/166117032-c985a3a6-0dc4-484d-8bdd-3f5ed4992d71.png)
 
 ### 2. Images ###
 Two sets of images in DICOM (https://www.dicomstandard.org/) format were availabe:
@@ -56,10 +57,4 @@ This is the same image submitted to a HOG transformation:<br/>
 ![image](https://user-images.githubusercontent.com/92320460/165867625-3b2acd9c-ef05-44b0-9b8f-26cac8f5d790.png)
 
 
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/92320460/166117032-c985a3a6-0dc4-484d-8bdd-3f5ed4992d71.png)
 
