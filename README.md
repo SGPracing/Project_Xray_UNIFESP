@@ -45,7 +45,7 @@ The DICOM images were decoded into matrices and subsequently:
 - resized (1000 x 1000);
 - transformed into a vector with a 1e6 elements;
 - standardized;
-- decomposed/tranformed using PCA adn HOG
+- decomposed/tranformed (PCA)
 
 This is an example of an image, in the original format and transformed (PCA with n_elements = 50) as detailed above:<br/>
 ![image](https://user-images.githubusercontent.com/92320460/165962796-31969ce8-52dc-4e48-89c6-ce21ef6bf650.png)
