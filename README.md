@@ -48,10 +48,9 @@ The DICOM images were decoded into matrices and subsequently:
 - standardized;
 - decomposed/tranformed (PCA)
 
-This is an example of an image, in the original format and transformed (PCA with n_elements = 50) as detailed above:<br/>
-![image](https://user-images.githubusercontent.com/92320460/165962796-31969ce8-52dc-4e48-89c6-ce21ef6bf650.png)
+Bellow, the cumulative values curve and an example of an iamge recomposed after PCA transformation with 5, 10 and 50 elements:<br/>
+![image](https://user-images.githubusercontent.com/92320460/166394720-542f842f-54d1-4b31-a06f-7fe29fe5fb0c.png)
 
-![image](https://user-images.githubusercontent.com/92320460/165867134-2dd862c1-22bb-4eeb-9722-4b128d177590.png)
 
 This is the same image submitted to a HOG transformation:<br/>
 ![image](https://user-images.githubusercontent.com/92320460/165867625-3b2acd9c-ef05-44b0-9b8f-26cac8f5d790.png)
