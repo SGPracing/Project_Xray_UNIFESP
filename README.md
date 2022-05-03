@@ -66,7 +66,11 @@ Two other transformation/compression technics were tested as well:<br/>
 * Catboost;
 * Stochastic Gradient Descent (SGD)
 
-In a preliminary result with 2 categories (labels), knee and wrist, similar results where obtained, with F1 scores of 0.812.
+In a preliminary result with 2 categories (labels), knee and wrist, similar results where obtained, with F1 scores of 0.812.<br/>
+
+Below, an example showing the original image and the reconstructed one from the PCA data resulted from the models:
+
+<img width="387" alt="image" src="https://user-images.githubusercontent.com/92320460/166396161-ea1bd957-ba88-4336-b438-74b289c3746d.png">
 
 
 
