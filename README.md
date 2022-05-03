@@ -23,8 +23,7 @@ Python 3.9.7
 * skimage
 * pathlib
 
-## DataFrame and Images##
-### 1. ".csv" files ###
+## DataFrame ##
 Two .csv files ("train.csv" and "sample_submission.csv") were available for downloading.<br/>
 The "train.csv" file carries two columns of objects, with an image ID as "SOPInstanceUID" and the represented body anatomy segment as "Target". This file was used to generate samples for the purpose of the coding.<br/>
 
@@ -34,7 +33,7 @@ A decorticated and labeled dataframe was created to facilitate visualisation.<br
 The next step was to aggregate the image files' path to the correct "SOPInstanceUID" in the dataframe refering to the DICOM metadata.<br/>
 ![image](https://user-images.githubusercontent.com/92320460/166117032-c985a3a6-0dc4-484d-8bdd-3f5ed4992d71.png)
 
-### 2. Images ###
+## Images ##
 Two sets of images in DICOM (https://www.dicomstandard.org/) format were availabe:
 * train: 1738 images
 * test: 743 images
@@ -48,17 +47,26 @@ As a first implementation, The DICOM images were decoded into matrices and subse
 - standardized;
 - decomposed/tranformed (PCA)
 
+### 1. PCA ###
+
 Bellow, the cumulative values curve and an example of an iamge recomposed after PCA transformation with 5, 10 and 50 elements:<br/>
 ![image](https://user-images.githubusercontent.com/92320460/166394720-542f842f-54d1-4b31-a06f-7fe29fe5fb0c.png)
 
-Two other transformation/compression technics were tested as well:
-### Hiastogram of Oriented Gradient (HOG) ###
+Two other transformation/compression technics were tested as well:<br/>
+
+### 2. Hiastogram of Oriented Gradient (HOG) ###
 ![image](https://user-images.githubusercontent.com/92320460/165867625-3b2acd9c-ef05-44b0-9b8f-26cac8f5d790.png)
 
-### Singular Value Decomposition (SVD) ###
+### 3. Singular Value Decomposition (SVD) ###
 <img width="693" alt="image" src="https://user-images.githubusercontent.com/92320460/166395015-263d8ce1-13c7-4037-96e8-06954158c466.png">
 
 ![image](https://user-images.githubusercontent.com/92320460/166395133-ac476fa7-c891-4735-8673-c6fc9151e2be.png)
+
+## Calssificaiton Models ##
+* Catboost;
+* Stochastic Gradient Descent (SGD)
+
+In a preliminary result with 2 categories (labels), knee and wrist, similar results where obtained, with F1 scores of 0.812.
 
 
 
