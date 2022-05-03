@@ -1,4 +1,4 @@
-# Project X-ray (UNIFESP Kaggel Competition) ![image](https://user-images.githubusercontent.com/92320460/166401377-b643067f-88d1-49a2-9504-e89f4b029634.png)
+# Project X-ray (UNIFESP Kaggel Competition)
 
 
 ## Introduction ##
