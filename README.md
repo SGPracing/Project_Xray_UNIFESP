@@ -76,7 +76,7 @@ However, the models showed low score as the number fo categories increased(e.g 6
 ## Next Steps ##
 * Optimize image transformation
 * apply different image transformation to the models
-* Model parameter optimization
+* Model parameters optimization
 
 ## Author ##
 * Sergio G. Pasian: https://github.com/SGPracing
