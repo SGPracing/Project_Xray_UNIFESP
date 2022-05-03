@@ -42,7 +42,7 @@ Two sets of images in DICOM (https://www.dicomstandard.org/) format were availab
 The "train" images were used splitted to train and test the models.<br/>
 The "test" images were used to generate a validation ".csv" file, which was submited as our solution for the competition.<br/>
 
-The DICOM images were decoded into matrices and subsequently:
+As a first implementation, The DICOM images were decoded into matrices and subsequently:
 - resized (1000 x 1000);
 - transformed into a vector with a 1e6 elements;
 - standardized;
@@ -51,9 +51,14 @@ The DICOM images were decoded into matrices and subsequently:
 Bellow, the cumulative values curve and an example of an iamge recomposed after PCA transformation with 5, 10 and 50 elements:<br/>
 ![image](https://user-images.githubusercontent.com/92320460/166394720-542f842f-54d1-4b31-a06f-7fe29fe5fb0c.png)
 
-
-This is the same image submitted to a HOG transformation:<br/>
+Two other transformation/compression technics were tested as well:
+### Hiastogram of Oriented Gradient (HOG) ###
 ![image](https://user-images.githubusercontent.com/92320460/165867625-3b2acd9c-ef05-44b0-9b8f-26cac8f5d790.png)
+
+### Singular Value Decomposition (SVD) ###
+<img width="693" alt="image" src="https://user-images.githubusercontent.com/92320460/166395015-263d8ce1-13c7-4037-96e8-06954158c466.png">
+
+![image](https://user-images.githubusercontent.com/92320460/166395133-ac476fa7-c891-4735-8673-c6fc9151e2be.png)
 
 
 
