@@ -1,4 +1,4 @@
-# Project X-ray (UNIFESP)
+# Project X-ray (UNIFESP Kaggel Competition)
 
 ## Introduction ##
 
