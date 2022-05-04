@@ -5,6 +5,7 @@
 
 This notebook proposes a solution to the competition posted by UNIFESP at Kaggle.com on the 20th of March 2022, entitled "UNIFESP X-ray Body Part Classifier Competition".<br/>
 The objective was to classify DICOM X-ray images by body anatomy segment. More detailed explanation can be found on the website bellow, under "Overview".<br>
+<img width="695" alt="image" src="https://user-images.githubusercontent.com/92320460/166609380-94a35533-2b45-444e-a9e2-e19d82b203eb.png">
 Link: https://www.kaggle.com/competitions/unifesp-x-ray-body-part-classifier
 
 
