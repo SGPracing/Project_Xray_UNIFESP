@@ -70,13 +70,13 @@ Two other transformation/compression technics were tested as well:<br/>
 
 Preliminary results (best) with up to 6 categories (labels), the following results were obtained:
 CatBoost:
-- 2 labels, PCA n=50: F1scores = 0.812
+- 2 labels, PCA n=50: F1score = 0.812
 - 6 labels, PCA n=50: F1score = 0.797
 
 SGD:
-- 2 labels, PCA n=50: F1scores = 0.803
+- 2 labels, PCA n=50: F1score = 0.803
 - 6 labels, PCA n=100: F1score = 0.599
-- 
+
 Below, an example showing the original image and the reconstructed one from the PCA data resulted from the models:
 
 <img width="387" alt="image" src="https://user-images.githubusercontent.com/92320460/166396161-ea1bd957-ba88-4336-b438-74b289c3746d.png">
