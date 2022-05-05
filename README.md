@@ -68,7 +68,15 @@ Two other transformation/compression technics were tested as well:<br/>
 * Catboost
 * Stochastic Gradient Descent (SGD)
 
-In a preliminary result with 2 categories (labels), knee and wrist, similar results where obtained, with F1 scores of 0.812.<br/>
+Preliminary results (best) with up to 6 categories (labels), the following results were obtained:
+CatBoost:
+- 2 labels, PCA n=50: F1scores = 0.812
+- 6 labels, PCA n=50: F1score = 0.797
+
+SGD:
+- 2 labels, PCA n=50: F1scores = 0.803
+- 6 labels, PCA n=100: F1score = 0.599
+- 
 Below, an example showing the original image and the reconstructed one from the PCA data resulted from the models:
 
 <img width="387" alt="image" src="https://user-images.githubusercontent.com/92320460/166396161-ea1bd957-ba88-4336-b438-74b289c3746d.png">
@@ -77,7 +85,7 @@ However, the models showed low score as the number fo categories increased(e.g 6
 
 ## Next Steps ##
 * Optimize image transformation
-* Apply different image transformation to the models
+* Apply different image transformations to the models
 * Model parameters optimization / New models
 * Pipeline for automation of the process
 
